@@ -1,0 +1,11 @@
+package Ex_4_2_CreatesAGallery;
+
+public class Text extends ACreatesAGallery {
+	private int lines;
+
+	public Text(String name, int size, int lines) {
+		super(name, size);
+		this.lines = lines;
+	}
+	
+}

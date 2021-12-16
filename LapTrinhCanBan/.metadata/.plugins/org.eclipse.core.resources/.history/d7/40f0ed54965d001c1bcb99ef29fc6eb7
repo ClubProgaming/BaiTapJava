@@ -1,0 +1,5 @@
+package Ex_4_3_Shape;
+
+public interface ISape {
+
+}

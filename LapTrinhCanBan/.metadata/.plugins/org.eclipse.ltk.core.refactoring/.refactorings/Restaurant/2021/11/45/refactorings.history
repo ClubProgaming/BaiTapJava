@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;BTTLam/src/Restaurant&apos;&#x0D;&#x0A;- Original project: &apos;Restaurant&apos;&#x0D;&#x0A;- Destination element: &apos;BTTLam/src/Restaurant&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     intersection.java&#x0D;&#x0A;     RestaurantTest.java&#x0D;&#x0A;     Restaurant.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="=BTTLam/src&lt;Restaurant" element1="/src&lt;{intersection.java" element2="/src&lt;{RestaurantTest.java" element3="/src&lt;{Restaurant.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1636005218572" units="3" version="1.0"/>
+</session>

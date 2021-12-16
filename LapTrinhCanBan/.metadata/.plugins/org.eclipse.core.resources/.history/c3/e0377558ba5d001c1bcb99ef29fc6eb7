@@ -1,0 +1,15 @@
+package Ex_4_4_Shape;
+
+public abstract class AShape implements IShape {
+	protected  CartPT loc;
+	public double area()
+	{
+		return this.area();
+	}
+	public double distantToO() {
+		return this.distantToO();
+	}
+	public double contains(CartPT that);
+	public Square boudingBox();
+	public double perimater();
+}

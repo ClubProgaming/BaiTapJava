@@ -1,0 +1,10 @@
+package Ex_4_4_Shape;
+
+import java.lang.reflect.Constructor;
+
+public class Dot extends AShape {
+	public Dot(CartPT loc)
+	{
+		this.loc = loc;
+	}
+}

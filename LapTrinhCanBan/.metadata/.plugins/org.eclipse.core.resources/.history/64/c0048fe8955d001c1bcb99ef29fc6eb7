@@ -1,0 +1,9 @@
+package Ex_4_2_CreatesAGallery;
+
+import junit.framework.TestCase;
+
+public class ICreatesAGalleryTest extends TestCase {
+		public void testConstructor() {
+			
+		}
+}

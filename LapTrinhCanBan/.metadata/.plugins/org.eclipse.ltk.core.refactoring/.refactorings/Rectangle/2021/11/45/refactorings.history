@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;BTTLam/src/Rectangle&apos;&#x0D;&#x0A;- Original project: &apos;Rectangle&apos;&#x0D;&#x0A;- Destination element: &apos;BTTLam/src/Rectangle&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Rectangle.java&#x0D;&#x0A;     RectangleTest.java&#x0D;&#x0A;     CartPt.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="=BTTLam/src&lt;Rectangle" element1="/src&lt;{Rectangle.java" element2="/src&lt;{RectangleTest.java" element3="/src&lt;{CartPt.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1636005169254" units="3" version="1.0"/>
+</session>

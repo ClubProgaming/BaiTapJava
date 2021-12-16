@@ -1,0 +1,5 @@
+package Ex_4_4_Shape;
+
+public abstract class AShape implements IShape {
+	protected  CartPT loc;
+}

@@ -1,0 +1,12 @@
+package Ex_4_1_BankAccount;
+
+import junit.framework.TestCase;
+
+public class IBankTest extends TestCase {
+	public void testConstructor() {
+		new SavingAccount(new BankAccount(4104,"Ima Flatt",10123),35);
+		new ChackingAccount(new BankAccount(1729, "Earl Gray", 1250),500);
+		new CD(new BankAccount(1729, "Earl Gray", 1250),222,new Date(1, 6, 2005));
+
+	}
+}

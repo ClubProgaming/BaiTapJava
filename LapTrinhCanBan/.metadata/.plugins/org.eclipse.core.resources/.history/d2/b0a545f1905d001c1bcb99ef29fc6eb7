@@ -1,0 +1,25 @@
+package Ex_4_1_BankAccount;
+
+public class CD implements IBank {
+	ABank	account;
+	private int interestRate;
+	Date date;
+	/**
+   	 new CD(new BankAccount(1729, "Earl Gray", 1250),222,new Date(1, 6, 2005));
+	 * @param account
+	 * @param interestRate
+	 * @param date
+	 */
+	public CD(ABank account, int interestRate, Date date) {
+		this.account = account;
+		this.interestRate = interestRate;
+		this.date = date;
+	}
+	public int getInterestRate() {
+		return interestRate;
+	}
+	public void setInterestRate(int interestRate) {
+		this.interestRate = interestRate;
+	}
+	
+}

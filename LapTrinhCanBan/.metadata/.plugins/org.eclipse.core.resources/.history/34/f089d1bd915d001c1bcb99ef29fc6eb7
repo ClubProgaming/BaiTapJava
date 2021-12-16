@@ -1,0 +1,32 @@
+package Ex_4_1_BankAccount;
+
+public class SavingAccount implements IBank{
+	ABank account;
+	private double interestRest;
+
+	public ABank getAccount() {
+		return account;
+	}
+
+	public void setAccount(ABank account) {
+		this.account = account;
+	}
+
+	public double getInterestRest() {
+		return interestRest;
+	}
+
+	public void setInterestRest(int interestRest) {
+		this.interestRest = interestRest;
+	}
+	/**
+	 new SavingAccount(new BankAccount(4104,"Ima Flatt",10123),35);
+	 * @param account
+	 * @param interestRest
+	 */
+	public SavingAccount(ABank account, int interestRest) {
+		this.account = account;
+		this.interestRest = interestRest;
+	}
+	
+}

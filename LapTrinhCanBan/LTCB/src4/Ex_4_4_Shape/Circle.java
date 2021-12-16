@@ -1,0 +1,21 @@
+package Ex_4_4_Shape;
+
+public class Circle extends AShape  {
+	private double radius;
+	/**
+	 * CartPT c1 = new CartPT(1,2);
+	 * IShape s1 = new Circle(c1,3.0);
+	 * @param loc
+	 * @param radius
+	 */
+	public Circle(CartPT loc , double radius) {
+		this.loc = loc;
+		this.radius = radius;
+	}
+	public double area() {
+		return Math.PI *(this.radius*this.radius);
+	}
+	public double distantToO() {
+		return this.loc.distantToO();
+	}
+}

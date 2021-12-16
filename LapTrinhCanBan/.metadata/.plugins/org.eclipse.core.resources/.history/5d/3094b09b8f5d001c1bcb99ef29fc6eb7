@@ -1,0 +1,22 @@
+package Ex_4_1_BankAccount;
+
+public class ChackingAccount implements IBank {
+	BankAccount account;
+	private int minimumBalance;
+	/**
+	 new ChackingAccount(new BankAccount(1729, "Earl Gray", 1250),500);
+	 * @param account
+	 * @param minimumBalance
+	 */
+	public ChackingAccount(BankAccount account, int minimumBalance) {
+		this.account = account;
+		this.minimumBalance = minimumBalance;
+	}
+	public int getMinimumBalance() {
+		return minimumBalance;
+	}
+	public void setMinimumBalance(int minimumBalance) {
+		this.minimumBalance = minimumBalance;
+	}
+	
+}
