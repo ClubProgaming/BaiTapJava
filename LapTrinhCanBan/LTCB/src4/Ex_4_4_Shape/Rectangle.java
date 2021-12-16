@@ -21,4 +21,20 @@ public class Rectangle extends AShape{
 	public double distantToO() {
 		return this.loc.distantToO();
 	}
+	@Override
+	public boolean contains(CartPT that) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public Square boudingBox() {
+		// TODO Auto-generated method stub
+		return new Square (this.loc,this.width);
+	}
+	@Override
+	public double perimater() {
+		// TODO Auto-generated method stub
+		return this.hight+this.width;
+	}
+	
 }

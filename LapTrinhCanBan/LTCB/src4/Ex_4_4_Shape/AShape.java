@@ -7,7 +7,7 @@ public abstract class AShape implements IShape {
 
 	public abstract double distantToO();
 
-	public abstract double contains(CartPT that);
+	public abstract boolean contains(CartPT that);
 
 	public abstract Square boudingBox();
 
