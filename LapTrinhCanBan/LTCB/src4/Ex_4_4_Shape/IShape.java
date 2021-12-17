@@ -5,5 +5,5 @@ public interface IShape {
 	public double distantToO();
 	public boolean contains(CartPT that);
 	public Square boudingBox();
-	public double perimater();
+	public double perimeter();
 }

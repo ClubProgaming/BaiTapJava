@@ -11,5 +11,5 @@ public abstract class AShape implements IShape {
 
 	public abstract Square boudingBox();
 
-	public abstract double perimater() ;
+	public abstract double perimeter() ;
 }
