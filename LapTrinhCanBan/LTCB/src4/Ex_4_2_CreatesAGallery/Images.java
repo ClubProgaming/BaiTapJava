@@ -1,5 +1,7 @@
 package Ex_4_2_CreatesAGallery;
 
+import Ex_4_5_AGallery.AAGallery;
+
 public class Images extends ACreatesAGallery  {
 	private int hight;
 	private int widght;

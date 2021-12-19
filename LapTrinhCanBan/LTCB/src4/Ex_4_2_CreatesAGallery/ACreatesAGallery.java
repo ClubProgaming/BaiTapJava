@@ -1,6 +1,6 @@
 package Ex_4_2_CreatesAGallery;
 
-public class ACreatesAGallery implements ICreatesAGallery{
+public abstract class ACreatesAGallery  {
 	private String name;
 	private int size;
 	/**

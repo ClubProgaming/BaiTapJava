@@ -5,7 +5,7 @@ public class Rectangle extends AShape{
 	private int width;
 	/**
 	  CartPT pt1 = new CartPT(1,2);
-	  IShape s4 = new Rectangle(pt1,10,20)
+	  IShape s4 = new Rectangle(pt1,10,20);
 	 * @param loc
 	 * @param hight
 	 * @param width

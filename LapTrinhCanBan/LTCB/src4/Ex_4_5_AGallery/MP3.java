@@ -8,7 +8,7 @@ package Ex_4_5_AGallery;
  *
  */
 public class MP3 extends AAGallery {
-	private int timePlaying;
+	private int timePlaying;// second
 	
 	/**
 	 * Testing Constructor

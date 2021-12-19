@@ -51,7 +51,7 @@ public class CartPT {
 	 * @return
 	 */
 	public double distantTo(CartPT that) {
-		return Math.sqrt((this.x-that.x)*(this.x-that.x)-(this.y-that.y)*(this.y-that.y));
+		return Math.sqrt((this.x-that.x)*(this.x-that.x)+(this.y-that.y)*(this.y-that.y));
 	}
 	/**
 	 * for example translate
@@ -62,15 +62,15 @@ public class CartPT {
 	 pt2.translate(1,2) : new CartPT(2,2)
 	 * @param dx
 	 * @param dy
-	 * @return
+	 * @return new CartPT
 	 */
 	public CartPT translate(int dx,int dy) {
-		return new CartPT(this.x-dx,this.y-dy);
+		return new CartPT(this.x-dx , this.y-dy);
 	}
 	@Override
 	public boolean equals(Object obj) {
 		// TODO Auto-generated method stub
-		if(obj == null || !(obj instanceof CartPT)) {
+		if (obj == null || !(obj instanceof CartPT)) {
 			return false;
 		}else {
 			CartPT that = (CartPT) obj;
