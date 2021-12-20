@@ -14,6 +14,10 @@ public class cab extends ATaxiVehicle {
 	}
 
 	@Override
+	/**
+	 * Testing fare()
+	 
+	 */
 	public double fare(double numberOfMile) {
 		// TODO Auto-generated method stub
 		return this.pricePerMile*numberOfMile;

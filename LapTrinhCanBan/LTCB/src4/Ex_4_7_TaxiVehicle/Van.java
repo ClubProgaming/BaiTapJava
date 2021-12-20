@@ -11,6 +11,8 @@ public class Van extends ATaxiVehicle{
 	private boolean access;
 
 	/**
+	 * Testing Contructor
+	 ATaxiVehicle t1 = new Van(23,7,33,true);
 	 * @param id
 	 * @param passenger
 	 * @param pricePerMile
@@ -22,9 +24,14 @@ public class Van extends ATaxiVehicle{
 	}
 
 	@Override
+	/**
+	 * Testing fare()
+	 ATaxiVehicle t1 = new Van(23,7,33,true);
+     assertEquals(t1.fare(23.3), 775.9);
+	 */
 	public double fare(double numberOfMile) {
 		// TODO Auto-generated method stub
-		return this.fare(numberOfMile)*numberOfMile + this.passenger;
+		return this.pricePerMile*numberOfMile + this.passenger;
 	}
 	
 

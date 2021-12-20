@@ -8,7 +8,7 @@ package Ex_4_6_Items;
  *
  */
 public class coffee extends AItems {
-	private String labeled;
+	private String labeled; //regular or decaffeinated
 
 	/**
 	 * @param name

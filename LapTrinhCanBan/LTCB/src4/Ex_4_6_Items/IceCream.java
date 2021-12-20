@@ -9,7 +9,7 @@ package Ex_4_6_Items;
  */
 public class IceCream extends AItems{
 	private String flavor;
-	private	String type;
+	private	String type;//whether this is a sorbet, a frozen yogurt, or regular ice cream.
 	/**
 	 * @param name
 	 * @param weight

@@ -9,7 +9,7 @@ package Ex_4_6_Items;
  */
 public class Juice extends AItems{
 	private String flavor;
-	private String packaged;
+	private String packaged;//packaged as frozen, fresh, bottled, or canned.
 	/**
 	 * @param name
 	 * @param weight
