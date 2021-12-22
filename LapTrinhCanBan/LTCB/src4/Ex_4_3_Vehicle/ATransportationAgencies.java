@@ -7,7 +7,7 @@ package Ex_4_3_Vehicle;
  * @author lethanhtam
  *
  */
-public abstract class ATransportationAgencies {
+public abstract class ATransportationAgencies implements ITransportation {
 	private double fuelTank;
 	private int passenger;
 	/**
