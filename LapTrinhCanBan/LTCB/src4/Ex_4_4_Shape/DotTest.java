@@ -15,20 +15,20 @@ public class DotTest extends TestCase {
 		  CartPT pt1 = new CartPT(1,2);
 		  IShape s2 = new Dot(pt1);
 	}
-	public void testarea() {
+	public void testArea() {
 		//* Testing area()
 		   CartPT pt1 = new CartPT(1,2);
 		   IShape s2 = new Dot(pt1);
 		   assertEquals(s2.area(),0.0);
 	}	
-	public void testdistantToO() {
+	public void testDistantToO() {
 		 //* Testing distantToO
 		  CartPT pt1 = new CartPT(1,2);
 		  
 		  IShape s2 = new Dot(pt1);
 		  assertEquals(s2.distantToO(), 2.24,0.01);
 	}
-	public void testcontains() {
+	public void testContains() {
 		//* Testing contains()
 		  CartPT pt1 = new CartPT(1,2);
 		  IShape s2 = new Dot(pt1);
@@ -36,13 +36,13 @@ public class DotTest extends TestCase {
 		  assertEquals(s2.contains(pt1),true);
 		  assertEquals(s2.contains(pt2), false);
 	}
-	public void testboudingBox() {
+	public void testBoudingBox() {
 		 //* Testing boudingBox()
 		  CartPT pt1 = new CartPT(1,2);
 		  IShape s2 = new Dot (pt1);
 		  assertEquals(s2.boudingBox(), new Square(pt1,0));
 	}
-	public void testperimeter() {
+	public void testPerimeter() {
 		//* Testing perimerter()
 		  CartPT pt1 = new CartPT(1,2);
 		  IShape s2 = new Dot (pt1);

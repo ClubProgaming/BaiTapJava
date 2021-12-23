@@ -14,18 +14,18 @@ public class SquareTest extends TestCase {
 		  CartPT pt1 = new CartPT(1,2);
 		  IShape s3 = new Square(pt1,5);
 	}
-	public void testarea() {
+	public void testArea() {
 		  CartPT pt1 = new CartPT(1,2);
 		  IShape s3 = new Square(pt1,5);
 		  assertEquals(s3.area(), 25.0);
 	} 
-	public void testdistantToO() {
+	public void testDistantToO() {
 		//* Testing distantToO
 		  CartPT pt1 = new CartPT(1,2);
 		  IShape s3 = new Square(pt1,5);
 		  assertEquals(s3.distantToO(),2.24,0.01);
 	}
-	public void testcontains() {
+	public void testContains() {
 		//* Testing contains()
 		  CartPT pt1 = new CartPT(1,2);
 		  CartPT pt2 = new CartPT(6,8);
@@ -33,13 +33,13 @@ public class SquareTest extends TestCase {
 		  assertEquals(s3.contains(pt1),true);
 		  assertEquals(s3.contains(pt2),false);
 	}
-	public void testboudingBox() {
+	public void testBoudingBox() {
 		//Testing boudingBox()
 		  CartPT pt1 = new CartPT(1,2);
 		  IShape s3 = new Square(pt1,5);
 		  assertEquals(s3.boudingBox(),s3);
 	}
-	public void perimeter() {
+	public void testPerimeter() {
 		// Testing perimeter()
 		  CartPT pt1 = new CartPT(1,2);
 		  IShape s3 = new Square(pt1 ,5);

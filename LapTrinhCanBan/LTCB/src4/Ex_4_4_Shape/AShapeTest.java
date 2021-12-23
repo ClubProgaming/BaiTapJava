@@ -11,7 +11,7 @@ public class AShapeTest extends TestCase {
 		IShape s4 = new Rectangle(pt1,10,20); 
 	}
 
-	public void testarea() {
+	public void testArea() {
 		CartPT pt1 = new CartPT(1,2);
 		IShape s1 = new Circle(pt1,3);
 		IShape s2 = new Dot(pt1);
@@ -23,7 +23,7 @@ public class AShapeTest extends TestCase {
 		assertEquals( s4.area(),200.0);
 	}
 
-	public void testdistantToO() {
+	public void testDistantToO() {
 		CartPT pt1 = new CartPT(1,2);
 		IShape s1 = new Circle(pt1,3);
 		IShape s2 = new Dot(pt1);
@@ -35,7 +35,7 @@ public class AShapeTest extends TestCase {
 		assertEquals(s4.distantToO(),2.24,0.01);
 	}
 
-	public void testcontains() {
+	public void testContains() {
 		CartPT pt1 = new CartPT(1,2);
 		CartPT pt2 = new CartPT(3,33);
 		IShape s1 = new Circle(pt1,3);
@@ -52,7 +52,7 @@ public class AShapeTest extends TestCase {
 	     assertEquals(s4.contains(pt2),false);
 	}
 
-	public void testboudingBox() {
+	public void testBoudingBox() {
 		CartPT pt1 = new CartPT(1,2);
 		IShape s1 = new Circle(pt1,3);
 		IShape s2 = new Dot(pt1);
@@ -64,7 +64,7 @@ public class AShapeTest extends TestCase {
 		assertEquals(s4.boudingBox(), new Square(pt1,20));
 	}
 
-	public void testperimeter() {
+	public void testPerimeter() {
 		CartPT pt1 = new CartPT(1,2);
 		IShape s1 = new Circle(pt1,3);
 		IShape s2 = new Dot(pt1);

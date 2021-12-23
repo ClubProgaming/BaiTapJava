@@ -11,7 +11,8 @@ public class limos extends ATaxiVehicle {
 	private int minRantal;
 
 	/**
-	 * Testing constructor ATaxiVehicle t2 = new cab(44, 4, 34);
+	 * Testing constructor 
+	 ATaxiVehicle t2 = new cab(44, 4, 34);
 	 * 
 	 * @param id
 	 * @param passenger

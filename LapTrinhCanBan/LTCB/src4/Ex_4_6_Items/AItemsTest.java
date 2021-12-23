@@ -16,7 +16,7 @@ public class AItemsTest extends TestCase {
 		 assertEquals(i2.unitprice(),5000.0);
 		 assertEquals(i3.unitprice(),20000.0);
 	}
-	public void testlowprice() {
+	public void testLowprice() {
 		 AItems i1 = new coffee("thai nguyen",0.23,400000,"regular");
 		 AItems i2 = new IceCream("oc que",0.01,50000,"cinnamon walnuts","sorbet");
 		 AItems i3 = new Juice("nuoc cam",0.1,200000,"Orange","frozen");
@@ -24,7 +24,7 @@ public class AItemsTest extends TestCase {
 	 	 assertEquals(i2.lowprice(20000),false);
 	 	 assertEquals(i3.lowprice(20000),false);
 	}
-	public void testcheaperThan() {
+	public void testCheaperThan() {
 		 AItems i1 = new coffee("thai nguyen",0.23,400000,"regular");
 		 AItems i2 = new IceCream("oc que",0.01,50000,"cinnamon walnuts","sorbet");
 		 AItems i3 = new Juice("nuoc cam",0.1,200000,"Orange","frozen");
